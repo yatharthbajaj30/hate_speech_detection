@@ -2,7 +2,7 @@
 
 ## *Can Content Moderation Be Automated?*
 
-![banner](./visualizations/banner.png)
+![alt text](https://images.app.goo.gl/g4j5N9i8DVio4n5s8)
 
 ## Overview
 

@@ -83,7 +83,7 @@ Additionally from this graph, we can see that tweets classified as Hate Speech a
 
 **Overall, we want as much hate speech to flagged as possible** and so that it can be efficiently removed. This means also **optomizing the True Positive Rate**, aka Recall.
 
-![confusion](./visualizations/normalized_log_reg_countvec_matrix.png)
+
 
 As expected, the final model has a True Negative Rate of 91% and a True Positive Rate of 62%.
 

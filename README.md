@@ -2,7 +2,7 @@
 
 ## *Can Content Moderation Be Automated?*
 
-![alt text](https://images.app.goo.gl/g4j5N9i8DVio4n5s8)
+
 
 ## Overview
 
@@ -39,7 +39,7 @@ The dataset for this capstone project was sourced from a study called *Automated
 
 ### 1. What are the linguistic differences between hate speech and offensive language?
 
-![img1](./visualizations/label_word_count_y.png)
+
 
 Linguistically, it's important to note that the difference between hate speech and offensive language often comes down to how it targets marginalized communities, often in threatening ways.
 
@@ -51,7 +51,7 @@ Examples like that one demonstrate the nuances of English slang and the fine lin
 
 ### 2. What are the most popular hashtags of each tweet type?
 
-![img2](./visualizations/censored_top_hashtags.png)
+
 
 We can see some more parallels and differences between what is classified as hate speech or not. 
 
@@ -66,7 +66,7 @@ From this, it's recommended that **Twitter should closely monitor those top hash
 
 ### 3. What is the overall polarity of the tweets?
 
-![img3](./visualizations/compound_polarity_score.png)
+
 
 The compound polarity score is a metric that calculates the sum of all the [lexicon ratings](https://github.com/cjhutto/vaderSentiment/blob/master/vaderSentiment/vader_lexicon.txt) which have been normalized between -1 and +1. With -1 being extreme negative and +1 being extreme positive. **This score encompasses the overall sentiment of this corpus.**
 
@@ -105,7 +105,7 @@ The issue of class imbalance is manageable with preprocessing techniques and ove
 
 This is because the line between Hate Speech and regular offensive language is so fine. **Usually, the difference between hate speech and offensive language comes down to subtle context or diction.**
 
-![word_venn](./visualizations/word_venn.png)
+
 
 Here, we can see that there are 679 words unique to the "Hate Speech" label. Some of these words are nonsensical or meaningless, but some are especially hateful terms. 
 
@@ -122,7 +122,7 @@ Ultimately, automating hate speech detection is an extremely difficult task beca
 
 An **interactive version** of the final model is hosted on Heroku. Check it out [here](https://hate-speech-predictor.herokuapp.com/)!
 
-![demo](./visualizations/model_demo.gif)
+
 
 ## Next Steps
 
